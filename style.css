@@ -124,9 +124,9 @@
   padding: 0 10px;
 }
 
-/* pricing */
+ /* pricing */
 
-.pricing {
+ .pricing {
   width: 70%;
 
   margin: 80px auto;
@@ -188,7 +188,8 @@ ul {
   margin-bottom: 30px;
 }
 
-/*  generate with AI */
+
+ /* generate with AI  */
 .registration {
   max-width: 700px;
   margin: 40px auto;
@@ -235,14 +236,83 @@ button {
 
 button:hover {
   background-color: #1d4ed8;
+} 
+
+
+
+.footer{
+    background:#111827;
+    color:#fff;
+    padding:40px 8%;
 }
 
-footer {
-  text-align: center;
-  display: flex;
-  justify-content: space-between ;
-    padding: 50px;
-    background: #0f172a;
-    color: white;
-    margin-top: 30px;
+/* Top Section */
+.footer-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:20px;
 }
+
+/* Logo */
+.footer-logo {
+   
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.footer-logo img{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+.footer-icon-parent {
+  margin-top: 20px;
+}
+
+.footer-icon-parent span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background: #fff;
+  color: #e4dcd7;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.footer-icon-parent span:hover {
+  background: #322a24;
+  color: white;
+  transform: translateY(-3px);
+}
+/* Divider */
+.footer hr{
+    border:none;
+    border-top:1px solid #374151;
+    margin:30px 0 20px;
+}
+
+/* Bottom */
+
+
+.footer-bottom{
+    text-align:center;
+    color:#9ca3af;
+    font-size:15px;
+     display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:20px;
+}
+

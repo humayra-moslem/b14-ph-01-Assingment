@@ -1,1 +1,1 @@
-Give me an HTML and CSS template for a tech seminar which have a form for participate and they can submit their own .
+Give me an HTML and CSS template for a tech seminar which have a form for participate and they can submit their own  
